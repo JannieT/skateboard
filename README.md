@@ -1,6 +1,6 @@
-[![Latest Stable Version](https://poser.pugx.org/scateboard/scateboard/v/stable)](https://packagist.org/packages/scateboard/scateboard) [![Total Downloads](https://poser.pugx.org/scateboard/scateboard/downloads)](https://packagist.org/packages/scateboard/scateboard) [![License](https://poser.pugx.org/scateboard/scateboard/license)](https://packagist.org/packages/scateboard/scateboard)
+[![Latest Stable Version](https://poser.pugx.org/skateboard/skateboard/v/stable)](https://packagist.org/packages/skateboard/skateboard) [![Total Downloads](https://poser.pugx.org/skateboard/skateboard/downloads)](https://packagist.org/packages/skateboard/skateboard) [![License](https://poser.pugx.org/skateboard/skateboard/license)](https://packagist.org/packages/skateboard/skateboard)
 
-## About Scateboard
+## About Skateboard
 
 Skateboard is a minimalist PHP framework that is a good starting point for small web projects. Skateboard follows the MVC pattern and has sensible defaults that lets you start with your app-specific code immediately. The framework adds only two library files to your project which brings the following:
 
@@ -17,7 +17,7 @@ For also using middleware, route parameters, custom 404 responses and route pref
 ### Nimble controllers
 
 ```php
-class Controller extends Scateboard\Wheels\WebController
+class Controller extends Skateboard\Wheels\WebController
 {
 
     public function about()
@@ -51,9 +51,9 @@ For the full API on parsing request inputs, safe template rendering, template la
 Use Composer to start you project
 
 ```
-composer create-project --prefer-dist scateboard/scateboard gallery
+composer create-project --prefer-dist skateboard/skateboard gallery
 ```
 
 ## License
 
-Scateboard is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Skateboard is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
