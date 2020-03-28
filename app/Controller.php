@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Scateboard\Wheels\WebController;
+use Skateboard\Wheels\WebController;
 
 class Controller extends WebController
 {

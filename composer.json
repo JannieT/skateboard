@@ -1,15 +1,15 @@
 {
-    "name": "scateboard/scateboard",
-    "description": "Scateboard web app",
+    "name": "skateboard/skateboard",
+    "description": "Skateboard web app",
     "type": "project",
     "keywords": [
         "framework",
-        "scateboard"
+        "skateboard"
     ],
     "license": "MIT",
     "require": {
         "php": "^7.1",
-        "scateboard/framework": "^1.0"
+        "skateboard/framework": "^1.0"
     },
     "autoload": {
         "psr-4": {

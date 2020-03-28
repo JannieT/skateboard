@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Scateboard App</title>
+        <title>Skateboard App</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Merriweather:300&display=swap" rel="stylesheet"> 
