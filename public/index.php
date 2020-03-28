@@ -16,6 +16,5 @@ $router->setBasePath('/');
 */
 
 $router->get('/', '\App\Controller@index');
-// $router->get('/item/{id}', '\App\Controller@item');
 
 $router->run();
