@@ -1,4 +1,10 @@
-[![Latest Stable Version](https://poser.pugx.org/skateboard/skateboard/v/stable)](https://packagist.org/packages/skateboard/skateboard) [![Total Downloads](https://poser.pugx.org/skateboard/skateboard/downloads)](https://packagist.org/packages/skateboard/skateboard) [![License](https://poser.pugx.org/skateboard/skateboard/license)](https://packagist.org/packages/skateboard/skateboard)
+<p align="center"><img src="https://res.cloudinary.com/kiekies/image/upload/v1588426232/ztgvwfaqb8chrrytzlss.svg" width="400"></p>
+
+<p align="center">
+<a href="https://packagist.org/packages/skateboard/skateboard"><img src="https://poser.pugx.org/skateboard/skateboard/v/stable" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/skateboard/skateboard"><img src="https://poser.pugx.org/skateboard/skateboard/downloads" alt="Total Downloads"></a>
+<a href="https://poser.pugx.org/skateboard/skateboard/license"><img src="https://poser.pugx.org/skateboard/skateboard/license" alt="License"></a>
+</p>
 
 ## About Skateboard
 
@@ -46,12 +52,26 @@ class Controller extends Skateboard\Wheels\WebController
 
 For the full API on parsing request inputs, safe template rendering, template layouts, json responses, aborts and redirects, see the [controller docs](https://github.com/OneSheep/wheels/blob/master/README.md)
 
+### Environment variables
+
+Sensitive values that you store in your .env file can be accessed anywhere:
+
+```php
+$title = getenv("APP_NAME");
+```
+
 ## Installation
 
 Use Composer to start you project
 
 ```
 composer create-project --prefer-dist skateboard/skateboard gallery
+```
+
+If you want to use an environment file, copy the example:
+
+```bash
+cp .env.example .env
 ```
 
 ## License

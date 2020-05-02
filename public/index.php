@@ -2,8 +2,7 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-$router = new \Bramus\Router\Router();
-$router->setBasePath('/');
+$app = new \Skateboard\Wheels\Application(__DIR__);
 
 /*
 |--------------------------------------------------------------------
@@ -15,6 +14,6 @@ $router->setBasePath('/');
 |
 */
 
-$router->get('/', '\App\Controller@index');
+$app->get('/', '\App\Controller@index');
 
-$router->run();
+$app->run();
