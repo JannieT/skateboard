@@ -68,12 +68,6 @@ Use Composer to start you project
 composer create-project --prefer-dist skateboard/skateboard gallery
 ```
 
-If you want to use an environment file, copy the example:
-
-```bash
-cp .env.example .env
-```
-
 ## License
 
 Skateboard is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
